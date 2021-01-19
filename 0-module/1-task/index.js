@@ -5,6 +5,6 @@
  * @returns {number}
  */
 function sum(m, n) {
-  //тест1
+    return m+n;
   
 }
