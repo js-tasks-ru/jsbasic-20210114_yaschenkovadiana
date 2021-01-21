@@ -4,9 +4,8 @@
  * @returns {boolean}
  */
 function checkSpam(str) {
-  if (str.includes("1XbeT") || str.includes("XXX"))  {
+  if ((str.toLowerCase().includes('1xBet'.toLowerCase())) || (str.toLowerCase().includes('XXX'.toLowerCase()))) {
     return true;
   }
-  else () {
-   return false;
+  
 }
