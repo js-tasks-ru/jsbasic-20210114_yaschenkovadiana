@@ -12,11 +12,8 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  if( (name.length > 4) && (name.length!==0) && (!/\s/.test(name)) ) {
-    return true;
-  
- }
-}
+  return  ((name.length > 4) && (name.length!==0) && (!/\s/.test(name)) 
+  }
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
