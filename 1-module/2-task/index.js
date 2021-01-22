@@ -12,7 +12,7 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  return  ((name.length > 4) && (name.length!==0) && (!/\s/.test(name)) 
+  return  (name.length > 4) && (name.length!==0) && (!/\s/.test(name)); 
   }
 
 function sayHello() {
