@@ -8,13 +8,11 @@ function print(text) {
 /**
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
- * @param {string | null} name
- * @returns {boolean}
  */
 function isValid(name) {
   //return  (name.length > 4) && (name.length!==null) && (!/\s/.test(name)); 
   return !!name && !name.includes(' ') && name.length >= 4;
-  }
+}
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
