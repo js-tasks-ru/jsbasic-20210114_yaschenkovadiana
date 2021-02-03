@@ -8,4 +8,4 @@ function makeDiagonalRed(table) {
         td.style.backgroundColor = 'red';
         return td;
       }
-}
+    }
