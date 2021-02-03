@@ -4,6 +4,7 @@
  * @return {HTMLUListElement}
  */
 function makeFriendsList(friends) {
+
   let fragment = new DocumentFragment();
   let ul = document.createElement('ul');
   fragment.append(ul);
@@ -16,4 +17,5 @@ function makeFriendsList(friends) {
    }
   
    return fragment;
+
 }
