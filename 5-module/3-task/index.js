@@ -1,3 +1,4 @@
+
 function initCarousel()  {
   
   let currentSlideNumber = 0;
