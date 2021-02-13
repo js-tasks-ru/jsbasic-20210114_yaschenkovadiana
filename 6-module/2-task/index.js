@@ -6,7 +6,7 @@ export default class ProductCard {
     this.price = "€" + product.price.toFixed(2);
     this.category = product.category;
     this.id = product.id;
-    
+
     this.elem = document.createElement('div');
     this.elem.classList.add('card');
     let template = `
@@ -23,10 +23,10 @@ export default class ProductCard {
       </div>
    
     `;
-    
+
     this.elem.innerHTML = template;
   }
-  
+
 }
 let parentElement = document.querySelector('body');
 document.body.append(div);
