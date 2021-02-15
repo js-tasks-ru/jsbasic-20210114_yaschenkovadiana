@@ -28,8 +28,6 @@ export default class ProductCard {
   }
   
 }
-let parentElement = document.querySelector('body');
-document.body.append(div);
+
 let productCard  = new ProductCard(product);
-//parentElement.append(productCard.elem);
-parentElement.toggleVisibility();
+
