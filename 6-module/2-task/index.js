@@ -6,13 +6,13 @@ export default class ProductCard {
     this.price = "€" + product.price.toFixed(2);
     this.category = product.category;
     this.id = product.id;
-    this.image = product.image;
+    this.image = "/assets/images/products/"+ product.image;
     this.elem = document.createElement('div');
     this.elem.classList.add('card');
     let template = `
      
      <div class="card__top">
-        <img src="/assets/images/products/+/${this.image}" class="card__image"  alt="product">
+        <img src= ${this.image} class="card__image"  alt="product">
           <span class="card__price">${this.price}</span>
      </div>
      <div class="card__body">
