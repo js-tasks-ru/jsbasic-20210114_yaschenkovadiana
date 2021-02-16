@@ -29,5 +29,5 @@ export default class ProductCard {
 
 }
 
-let productCard  = new ProductCard(product);
+//let productCard  = new ProductCard(product);
 
