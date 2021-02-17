@@ -25,7 +25,9 @@ export default class ProductCard {
     `;
 
     this.elem.innerHTML = template;
+
   }
+
 
 }
 
