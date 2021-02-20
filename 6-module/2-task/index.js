@@ -17,7 +17,7 @@ export default class ProductCard {
      </div>
      <div class="card__body">
         <div class="card__title">${this.name}</div>
-        <button type="button" class="card__button">
+        <button onclick="product-add" type="button" class="card__button">
           <img src="/assets/images/icons/plus-icon.svg" alt="icon">
         </button>
       </div>
@@ -25,6 +25,11 @@ export default class ProductCard {
     `;
 
     this.elem.innerHTML = template;
+    
+    //this.elem.dispatchEvent(new CustomEvent("product-add", {
+     // detail: this.product.id, 
+     // bubbles: true 
+   // }));
 
   }
 
